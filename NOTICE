@@ -1,0 +1,53 @@
+Aether5GC — Attribution Notice
+==============================
+
+Aether5GC is a rebranded distribution of the Open5GS project.
+
+Upstream project : Open5GS
+Upstream source  : https://github.com/open5gs/open5gs
+Upstream author  : Sukchan Lee <acetcom@gmail.com>
+Maintainer       : Zakariaelqannaa-dv <https://github.com/zakariaelqannaa-dv>
+Copyright        : (C) 2019-2025 Sukchan Lee and Open5GS contributors
+License          : GNU Affero General Public License v3.0 or later
+                   (AGPL-3.0-or-later)
+Upstream docs    : https://open5gs.org/open5gs/docs/
+
+This distribution retains all original copyright notices, license headers, and
+third-party attribution notices. The source code, build system, configuration
+templates, and documentation remain substantially the work of the Open5GS
+project and its contributors.
+
+Aether5GC is an independent distribution. It is not affiliated with, sponsored
+by, or endorsed by the Open5GS project, its maintainers, or NewPlane.
+
+Names and trademarks
+--------------------
+"Open5GS", "NewPlane", and any associated logos are the property of their
+respective owners. They are used here only to identify the upstream project
+from which this distribution is derived. Aether5GC does not claim any rights
+to those marks.
+
+Naming compatibility
+--------------------
+To preserve compatibility with existing packaging, automation, and deployment
+tooling, executable names (open5gs-*), systemd unit names (open5gs-*.service),
+and configuration paths (/etc/open5gs) are intentionally left unchanged. The
+"Aether5GC" name applies to the distribution and its documentation, not to the
+upstream binary interfaces.
+
+Third-party software
+--------------------
+A list of third-party components and their licenses is maintained in
+docs/_pages/oss-notice.md and in the individual source files.
+
+License
+-------
+This distribution is licensed under the GNU Affero General Public License,
+version 3 or (at your option) any later version. See the LICENSE file for the
+full text. Because this is a network server, AGPL section 13 applies: if you
+run a modified version to provide a network service, you must offer the
+corresponding source to users of that service.
+
+Commercial licensing for the upstream project is available separately from
+NewPlane (https://newplane.io/). That option does not automatically extend to
+this distribution; contact the respective copyright holders.
